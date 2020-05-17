@@ -19,6 +19,7 @@
   "homepage": "https://github.com/marah-401-advanced-javascript/notes#readme",
   "dependencies": {
     "is-url": "^1.2.4",
+    "lint": "^0.7.0",
     "minimist": "^1.2.5"
   }
 }
