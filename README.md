@@ -25,6 +25,8 @@
 - Lint Tests: `npm run lint`
 - Incomplete tests: none
 
+#### UML
 
+![UML](/assets/lab01.jpg)
 
 
