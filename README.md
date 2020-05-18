@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR](https://github.com/marah-401-advanced-javascript/notes/pull/1)
+- [submission PR](https://github.com/marah-401-advanced-javascript/notes/pull/2)
 
 
 ### Modules
@@ -22,7 +22,8 @@
 
 #### Tests
 
-- Lint Tests: `npm run lint`
+- Lint Test: `npm run lint`
+- jest Test:`npm test`
 - Incomplete tests: none
 
 #### UML
