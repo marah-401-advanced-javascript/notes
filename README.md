@@ -18,7 +18,9 @@
 
 #### Running the app
 
-- `node index.js --action "add" --payload "your note`
+- `node index.js --add "add your note"`
+- `node index.js --a "add your note"`
+
 
 #### Tests
 
@@ -26,8 +28,11 @@
 - jest Test:`npm test`
 - Incomplete tests: none
 
-#### UML
+#### UMLs:
 
-![UML](/assets/lab01.jpg)
+![UML01](/assets/lab01.jpg)
+
+![UML02](/assets/lab02.jpg)
+
 
 
