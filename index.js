@@ -13,8 +13,7 @@ mongoose.connect(process.env.MONGODB_URL, {
     useUnifiedTopology: true,
   });
 
-// options.valid() ? myNote.execute(options).then(mongoose.disconnect) : help() ;
-options.valid() ? myNote.execute(options): help() ;
+options.valid() ? myNote.execute(options).then(mongoose.disconnect) : help() ;
 
 
 // we can use this function if the condition is false:
