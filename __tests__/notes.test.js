@@ -12,7 +12,7 @@ describe('NOTE Module', () => {
     });
     it('logs data when execute() is called with valid data', () => {
         const myNote = new Note();
-        myNote.execute({ action: 'add', payload: 'my note' });
+        myNote.execute({ action: 'add', payload: 'my note', action2:'category', category:'work' });
         expect(console.log).toHaveBeenCalled();
     });
   });
