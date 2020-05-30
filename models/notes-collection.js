@@ -8,6 +8,7 @@ class Notes {
 
   create(obj){
     let newRecord = new notesSchema(obj);
+    console.log('note saved :',newRecord);
     return  newRecord.save();
   }
 
@@ -21,8 +22,8 @@ class Notes {
     // }
   }
 
-  delete(id){
-    const deleted =  notesSchema.findByIdAndDelete(id.payload) ;//lab4
+  delete(_id){
+    const deleted =  notesSchema.findByIdAndDelete(_id) ;//lab4
     return deleted;
     // return  notesSchema.findOneAndDelete({ _id});
   }

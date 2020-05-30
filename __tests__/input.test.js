@@ -39,6 +39,8 @@ describe('INPUT MODULE', () => {
     describe('valid()', () => {
         it('respects a proper object', () => {
           const options = new Input();
+          options.action = 'a' || 'add';
+          options.payload = 'hello';
           expect(options.valid()).toBeTruthy();
         });
         it('reject invalid object', () => {
