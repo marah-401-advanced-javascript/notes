@@ -23,7 +23,8 @@
     "is-url": "^1.2.4",
     "lint": "^0.7.0",
     "minimist": "^1.2.5",
-    "mongoose": "^5.9.15"
+    "mongoose": "^5.9.15",
+    "superagent": "^5.2.2"
   },
   "devDependencies": {
     "eslint": "^7.0.0",

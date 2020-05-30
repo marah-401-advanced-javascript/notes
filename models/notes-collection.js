@@ -21,8 +21,8 @@ class Notes {
     // }
   }
 
-  delete(id){
-    const deleted =  notesSchema.findByIdAndDelete(id.payload) ;//lab4
+  delete(_id){
+    const deleted =  notesSchema.findByIdAndDelete(_id) ;//lab4
     return deleted;
     // return  notesSchema.findOneAndDelete({ _id});
   }
