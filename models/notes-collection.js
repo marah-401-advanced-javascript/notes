@@ -8,6 +8,7 @@ class Notes {
 
   create(obj){
     let newRecord = new notesSchema(obj);
+    console.log('note saved :',newRecord);
     return  newRecord.save();
   }
 
