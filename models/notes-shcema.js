@@ -7,4 +7,5 @@ const notes = new mongoose.Schema({
   category: {type: 'string', required: true},
 });
 
-module.exports = mongoose.model('notes', notes);
+module.exports.schema = notes.obj;//lab4
+module.exports.model = mongoose.model('notes', notes);
